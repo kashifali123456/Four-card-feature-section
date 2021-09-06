@@ -7,7 +7,7 @@
             color: hsl(228, 45%, 44%);
         } */
 
-* {
+.header1 {
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
 }
@@ -15,4 +15,21 @@
 .title {
     text-align: center;
     padding-top: 10px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.temp1 {
+    width: 300px;
+    border: 2px solid white;
+    padding: 50px;
+    margin: 0px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-top-color: hsl(0, 78%, 62%);
+    border-top-color: hsl(180, 62%, 55%);
+    border-top-color: hsl(34, 97%, 64%);
+    border-top-color: hsl(212, 86%, 64%);
 }
