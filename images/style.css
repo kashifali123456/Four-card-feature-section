@@ -7,9 +7,10 @@
             color: hsl(228, 45%, 44%);
         } */
 
-.header1 {
+.header {
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
+    height: 750px;
 }
 
 .title {
@@ -22,14 +23,47 @@ p {
 }
 
 .temp1 {
-    width: 300px;
+    width: 281px;
     border: 2px solid white;
-    padding: 50px;
-    margin: 0px;
     box-sizing: content-box;
     background-color: #fff;
-    border-top-color: hsl(0, 78%, 62%);
-    border-top-color: hsl(180, 62%, 55%);
-    border-top-color: hsl(34, 97%, 64%);
-    border-top-color: hsl(212, 86%, 64%);
+    font-size: 12px;
+}
+
+.temp2 {
+    position: absolute;
+    left: 660px;
+}
+
+.temp3 {
+    position: absolute;
+    left: 276px;
+    top: 416px;
+}
+
+.temp4 {
+    position: absolute;
+    left: 660px;
+    top: 570px;
+}
+
+.temp5 {
+    position: absolute;
+    left: 660px;
+}
+
+svg {
+    padding-left: 217px;
+}
+
+.temp {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 422px 30px 77px;
+}
+
+#team {
+    left: 100px;
 }
