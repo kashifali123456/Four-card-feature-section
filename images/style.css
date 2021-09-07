@@ -1,81 +1,119 @@
-.header {
-    background-color: hsl(0, 0%, 98%);
-    font-family: 'Poppins', sans-serif;
-    height: 850px;
-}
-
-.title {
-    text-align: center;
-    padding-top: 10px;
-}
-
-h2 {
-    padding: 0px 10px 0px 10px;
-}
-
-p {
-    color: hsl(229, 6%, 66%);
-    padding: 0px 10px 0px 10px;
-}
-
-.temp1 {
-    width: 307px;
-    height: 192px;
-    border: 2px solid white;
-    box-sizing: content-box;
-    background-color: #fff;
-    font-size: 12px;
-    border-radius: 6px;
-}
-
-.temp2 {
-    position: absolute;
-    left: 660px;
-    border-top: 1px solid white;
-}
-
-.temp3 {
-    position: absolute;
-    left: 276px;
-    top: 416px;
-}
-
-.temp4 {
-    position: absolute;
-    left: 660px;
-    top: 570px;
-}
-
-.temp5 {
-    position: absolute;
-    left: 1050px;
-    top: 416px;
-}
-
-svg {
-    padding-left: 217px;
-}
-
-.temp {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px 422px 30px 77px;
-}
-
-#team {
-    border-top: 3px solid hsl(0, 78%, 62%);
-}
-
-#super {
-    border-top: 3px solid hsl(180, 62%, 55%);
-}
-
-#karma {
-    border-top: 3px solid hsl(34, 97%, 64%);
-}
-
-#cal {
-    border-top: 3px solid hsl(212, 86%, 64%)
-}
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        background-color: hsl(0, 0%, 98%);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .title {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .title p {
+        padding: 0px 496px;
+    }
+    
+    h2 {
+        padding: 0px 10px 0px 10px;
+    }
+    
+    p {
+        color: hsl(229, 6%, 66%);
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .temp1 {
+        width: 307px;
+        height: 192px;
+        border: 2px solid white;
+        box-sizing: content-box;
+        background-color: #fff;
+        font-size: 12px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px rgb(209, 200, 200);
+    }
+    
+    .temp2 {
+        position: absolute;
+        left: 660px;
+        top: 190px;
+    }
+    
+    .temp3 {
+        position: absolute;
+        left: 310px;
+        top: 296px;
+    }
+    
+    .temp4 {
+        position: absolute;
+        left: 660px;
+        top: 452px;
+    }
+    
+    .temp5 {
+        position: absolute;
+        left: 1010px;
+        top: 296px;
+    }
+    
+    img {
+        padding: 59px 0px 0px 230px;
+        height: 50px;
+    }
+    
+    #team {
+        border-top: 3px solid hsl(0, 78%, 62%);
+    }
+    
+    #super {
+        border-top: 3px solid hsl(180, 62%, 55%);
+    }
+    
+    #karma {
+        border-top: 3px solid hsl(34, 97%, 64%);
+    }
+    
+    #cal {
+        border-top: 3px solid hsl(212, 86%, 64%)
+    }
+    
+    @media (max-width:700px) {
+        h1 {
+            font-size: 16px;
+            padding: 40px 0px 12px 0px;
+        }
+        .title p {
+            font-size: 9px;
+            padding: 0px 48px
+        }
+        .temp1 {
+            width: 240px;
+            height: 125px;
+            font-size: 9px;
+        }
+        img {
+            padding: 37px 0px 0px 175px;
+            height: 40px;
+        }
+        .temp2 {
+            position: static !important;
+            padding: 40px 0px 0px 25px;
+        }
+        .temp3 {
+            position: static !important;
+            padding: 25px 0px 0px 25px;
+        }
+        .temp4 {
+            position: static !important;
+            padding: 25px 0px 0px 25px;
+        }
+        .temp5 {
+            position: static !important;
+            padding: 25px 0px 30px 25px;
+        }
+    }
