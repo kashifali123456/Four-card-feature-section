@@ -1,16 +1,7 @@
-/* .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        } */
-
 .header {
     background-color: hsl(0, 0%, 98%);
     font-family: 'Poppins', sans-serif;
-    height: 750px;
+    height: 850px;
 }
 
 .title {
@@ -18,21 +9,29 @@
     padding-top: 10px;
 }
 
+h2 {
+    padding: 0px 10px 0px 10px;
+}
+
 p {
     color: hsl(229, 6%, 66%);
+    padding: 0px 10px 0px 10px;
 }
 
 .temp1 {
-    width: 281px;
+    width: 307px;
+    height: 192px;
     border: 2px solid white;
     box-sizing: content-box;
     background-color: #fff;
     font-size: 12px;
+    border-radius: 6px;
 }
 
 .temp2 {
     position: absolute;
     left: 660px;
+    border-top: 1px solid white;
 }
 
 .temp3 {
@@ -49,7 +48,8 @@ p {
 
 .temp5 {
     position: absolute;
-    left: 660px;
+    left: 1050px;
+    top: 416px;
 }
 
 svg {
@@ -65,5 +65,17 @@ svg {
 }
 
 #team {
-    left: 100px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+#super {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+#karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+#cal {
+    border-top: 3px solid hsl(212, 86%, 64%)
 }
